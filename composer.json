@@ -1,0 +1,35 @@
+{
+  "name": "multicaret/laravel-inbox",
+  "description": "Laravel messages and inbox system",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "inbox",
+    "messages",
+    "users",
+    "messenger"
+  ],
+  "authors": [
+    {
+      "name": "Mohamed Kawsara",
+      "email": "mkwsra@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": ">=5.*",
+    "nesbot/carbon": ">=1.25.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Multicaret\\Inbox\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Multicaret\\Inbox\\InboxServiceProvider"
+      ]
+    }
+  }
+}
