@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=7.2.5",
-    "illuminate/support": "7.*",
+    "illuminate/support": "8.*",
     "nesbot/carbon": "2.*"
   },
   "autoload": {
